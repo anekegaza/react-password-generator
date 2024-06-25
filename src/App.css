@@ -1,0 +1,83 @@
+* {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #24232b;
+  padding: 24px;
+  margin: 0 3.5rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  /* width: 550px; */
+  box-shadow: 5px 5px 5px rgba(16, 94, 94, 0.973);
+}
+.header {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background: rgb(42, 139, 139);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.copyBtn {
+  height: 30px;
+  font-size: 10px;
+}
+
+.charlength {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+
+.charlength span {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.checkboxes {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.checkboxes div {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 24px;
+}
+
+.generateBtn {
+  width: 100%;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.errorMessage {
+  color: red;
+  padding-bottom: 10px;
+}
+.errorMessage::before {
+  content: "*";
+}
